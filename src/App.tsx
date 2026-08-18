@@ -9,6 +9,7 @@ import GuaranteeSection from './components/GuaranteeSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import FAQSection from './components/FAQSection';
 import UpsellModal from './components/UpsellModal';
+import Footer from './components/Footer';
 
 export default function App() {
   const [isUnlocked, setIsUnlocked] = useState(false);
@@ -120,6 +121,9 @@ export default function App() {
 
       {/* 12. Accordion FAQ checklist matching Image 8 */}
       <FAQSection />
+
+      {/* Footer with Security badges and Copyright */}
+      <Footer />
 
     </div>
   );
